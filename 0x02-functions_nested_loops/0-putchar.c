@@ -6,13 +6,14 @@
 
 int main (void)
 {
-	char x[] = "_putchar\n";
+	char x[] = "_putchar";
 
 	int i;
 	
-	for (i=0; x[i]!='\0'; i++)
+	for (i = 0; i < 8; i++)
 	{
 		_putchar(x[i]);
 	}
+	_putchar('\n');
 	return (0);
 }
