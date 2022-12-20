@@ -1,4 +1,4 @@
-#include <unistd.h>
+#include "main.h"
 
 void swap_int(int *m, int *n)
 {
