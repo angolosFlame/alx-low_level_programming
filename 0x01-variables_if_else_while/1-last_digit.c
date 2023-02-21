@@ -1,14 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
 * The program seeks to print the last digit
 * of the number stored in the variable n 
 */
-
 int main(void)
-
 {
 	int n;
 	int last;
