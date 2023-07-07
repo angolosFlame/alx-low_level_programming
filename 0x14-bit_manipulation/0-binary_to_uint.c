@@ -26,7 +26,7 @@ unsigned int binary_to_uint(const char *b)
 		if (b[len -1] == '1')
 			result += base;
 		base*= 2;
-		len--:
+		len--;
 	}
 	return (result);
 }
